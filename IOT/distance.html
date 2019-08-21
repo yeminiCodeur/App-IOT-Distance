@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>change delay</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+  <script src="main.js"></script>
+</head>
+<body>
+
+  <div class="col-md-6 offset-3">
+    <div class="card">
+      <div class="card-body">
+   <h1 class="text-center">Tableau de board</h1>
+    <a href="testdistance.php" class="btn btn-primary btn-sm fa fa-eye" > Porte</a>
+   <form action="distance.php" method="POST">
+     <fieldset style="width:400px;">
+       <div class="form-group">
+          <label for="">Envoyer un delai en miliseconde pour le capteur</label>
+           <input type="number" name="delay" id="delay" class="form-control" style="font-style: italic;" placeholder="delay">
+       </div>
+       <div class="form-group">
+           <button type="submit" class="btn btn-sm btn-info">Envoyer</button>
+     </div>
+   </form>
+  </fieldset>
+</div>
+   
+</div>
+</div>
+</body>
+</html>
